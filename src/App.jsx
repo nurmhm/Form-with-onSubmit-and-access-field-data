@@ -1,6 +1,7 @@
 
 import './App.css'
 import SingleForm from './components/SingleForm/SingleForm'
+import UseState_form from './components/UseState/UseState_form'
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
     <>
 
       <h1>Vite + React</h1>
-      <SingleForm></SingleForm>
+      {/* <SingleForm></SingleForm> */}
+      <UseState_form></UseState_form>
     </>
   )
 }
